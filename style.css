@@ -36,12 +36,13 @@ a:hover {
     color: rgba(15, 52, 128, 1); /* Existing hover color */
 }
 
-/* New link styles */
-a {
+/* Updated link styles */
+body a, body a:visited {
     color: lightcoral; /* Set link color to light red */
+    text-decoration: none; /* Optional: removes underline */
 }
 
-a:hover {
+body a:hover {
     background: rgba(15, 53, 128, 0.1); /* Keep existing hover background */
     color: lightcoral; /* Keep light red on hover */
 }
