@@ -26,13 +26,22 @@ p:last-child {
     margin: 0;
 }
 
+/* Existing link styles */
 a, a:visited {
-    /* text-decoration: none; */
-    color: #0f356c;
-    color: rgba(15, 52, 128, 1);
+    color: rgba(15, 52, 128, 1); /* Existing color */
 }
 
 a:hover {
-    background: rgba(15, 53, 128, 0.1);
-    color: rgba(15, 52, 128, 1);
+    background: rgba(15, 53, 128, 0.1); /* Existing hover background */
+    color: rgba(15, 52, 128, 1); /* Existing hover color */
+}
+
+/* New link styles */
+a {
+    color: lightcoral; /* Set link color to light red */
+}
+
+a:hover {
+    background: rgba(15, 53, 128, 0.1); /* Keep existing hover background */
+    color: lightcoral; /* Keep light red on hover */
 }
